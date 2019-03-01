@@ -5,4 +5,4 @@ http.get(process.argv[2], (res) => {
         console.log(data);
     })
     res.on('error', console.error)
-})
+});
